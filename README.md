@@ -6,6 +6,23 @@ Most resume advice is generic ("use action verbs"). This framework is **operatio
 
 Highly shareable on Reddit, career forums, and coach playbooks because it names *what recruiters actually do*, not what candidates wish they did.
 
+## Downloads
+
+- [Recruiter audit checklist (PDF, fillable)](downloads/recruiter-audit-checklist.pdf) — quick + deep checklists, 2 pages
+- [Same checklist as Markdown](downloads/recruiter-audit-checklist.md)
+
+## Live tool preview
+
+The audit logic in this framework matches the production pipeline at [cvpage.org](https://cvpage.org):
+
+![Resume Credibility Checker](screenshots/credibility-checker.png)
+
+![Audit detail view](screenshots/ai-generated-detail.png)
+
+![Homepage flow](screenshots/homepage-hero.png)
+
+![Companion blog cluster](screenshots/blog-listing.png)
+
 ---
 
 ## The 5 steps
@@ -17,6 +34,17 @@ Highly shareable on Reddit, career forums, and coach playbooks because it names 
 | 3 | [ATS pass](framework/03-ats-pass.md) | Will the system parse and match this? |
 | 4 | [Impact vs activity](framework/04-impact-vs-activity.md) | Did they ship or just attend? |
 | 5 | [Tone and voice](framework/05-tone-and-voice.md) | Does this sound human or ChatGPT? |
+
+## Authority assets (citation-worthy)
+
+| Asset | Purpose |
+| --- | --- |
+| [Scoring rubric](scoring/scoring-rubric.md) · [JSON](scoring/scoring-rubric.json) | 0–10 per dimension with anchors |
+| [Aggregate formula](scoring/aggregate-formula.md) | Submit / fix first / block verdict |
+| [Red-flag phrases](phrase-libraries/red-flag-phrases.md) · [JSON](phrase-libraries/red-flags.json) | Auto-fail phrase library |
+| [Green-flag phrases](phrase-libraries/green-flag-phrases.md) | Trusted verbs and sentence shapes |
+| [12 credibility heuristics](heuristics/credibility-heuristics.md) | Named rules with pass/fail tests |
+| [Decision tree](heuristics/decision-tree.md) | Bullet-level credibility flowchart |
 
 Run steps 1 → 5 in order. Step 2 is the highest-stakes for senior hires.
 

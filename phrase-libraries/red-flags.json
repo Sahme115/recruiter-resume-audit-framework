@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "categories": ["invented-metric", "scope-inflation", "ai-tell", "vague-ownership", "phantom-artifact"],
+  "phrases": [
+    {"phrase": "passionate", "category": "ai-tell", "severity": "rewrite"},
+    {"phrase": "results-oriented", "category": "ai-tell", "severity": "rewrite"},
+    {"phrase": "proven track record", "category": "ai-tell", "severity": "rewrite"},
+    {"phrase": "leveraged", "category": "ai-tell", "severity": "rewrite"},
+    {"phrase": "spearheaded", "category": "scope-inflation", "severity": "rewrite"},
+    {"phrase": "drove", "category": "scope-inflation", "severity": "rewrite"},
+    {"phrase": "cross-functional", "category": "ai-tell", "severity": "rewrite"},
+    {"phrase": "cutting-edge", "category": "ai-tell", "severity": "rewrite"},
+    {"phrase": "robust", "category": "ai-tell", "severity": "rewrite"},
+    {"phrase": "scalable", "category": "ai-tell", "severity": "rewrite"},
+    {"phrase": "operational synergies", "category": "ai-tell", "severity": "delete"},
+    {"phrase": "key stakeholders", "category": "vague-ownership", "severity": "rewrite"},
+    {"phrase": "strategic initiatives", "category": "vague-ownership", "severity": "rewrite"},
+    {"phrase": "played a key role", "category": "vague-ownership", "severity": "rewrite"},
+    {"phrase": "was responsible for", "category": "vague-ownership", "severity": "rewrite"},
+    {"phrase": "increased efficiency by", "category": "invented-metric", "severity": "block"},
+    {"phrase": "improved conversion by", "category": "invented-metric", "severity": "block"},
+    {"phrase": "saved $", "category": "invented-metric", "severity": "block"},
+    {"phrase": "revolutionized", "category": "ai-tell", "severity": "rewrite"},
+    {"phrase": "world-class", "category": "ai-tell", "severity": "delete"}
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "rubric_version": "1.0",
+  "scale": "0-10 per dimension, total out of 50",
+  "dimensions": [
+    {
+      "id": "six_second_scan",
+      "name": "Six-Second Scan",
+      "question": "Can a recruiter answer 'what does this person do?' in six seconds?",
+      "anchors": {
+        "0": "Summary is all adjectives. No artifact named on page 1.",
+        "3": "Summary names role and years but no stack/domain. Top bullet is buzzword soup.",
+        "6": "Summary names role, years, stack. Top bullet has a verb + vague noun.",
+        "9": "Summary names role, years, stack, one specific recent scope. Top bullet has artifact + collaborator.",
+        "10": "Plus: first 1-2 words of every bullet vary, no two are identical."
+      }
+    },
+    {
+      "id": "credibility",
+      "name": "Credibility",
+      "question": "Would any bullet collapse on one follow-up question?",
+      "anchors": {
+        "0": "Multiple invented metrics or phantom artifacts; scope inflation throughout.",
+        "3": "One invented metric or one scope-inflated bullet on page 1.",
+        "6": "No clearly invented numbers, but several vague ownership claims.",
+        "9": "Every metric has a source. All 'Led/Owned' claims are honest. 1-2 unsurvivable claims remain.",
+        "10": "Plus: at least one bullet honestly describes something that went wrong or was decided against."
+      }
+    },
+    {
+      "id": "ats",
+      "name": "ATS",
+      "question": "Will the system parse and match this?",
+      "anchors": {
+        "0": "Image-only PDF / scanned. No standard headings. Tables for core content.",
+        "3": "Text-selectable PDF but multi-column layout or icon-heavy skills section.",
+        "6": "Standard headings, one-column. Some role keywords but only in a skills dump.",
+        "9": "Plus: 8+ role keywords inside real bullets. Exact tool names.",
+        "10": "Plus: zero keyword stuffing, no hidden text, skills with exact versions where relevant."
+      }
+    },
+    {
+      "id": "impact_vs_activity",
+      "name": "Impact vs Activity",
+      "question": "Did they ship or just attend?",
+      "anchors": {
+        "0": "80%+ activity verbs (Was responsible for, Supported, Helped with).",
+        "3": "Mostly activity; 1-2 impact bullets buried lower.",
+        "6": "~50/50 impact vs activity. Top bullet of recent role is impact.",
+        "9": "~70% impact bullets on page 1. Every impact bullet names an artifact.",
+        "10": "Plus: at least one bullet describes a specific decision (kept/killed/replaced)."
+      }
+    },
+    {
+      "id": "tone",
+      "name": "Tone",
+      "question": "Does this sound human or LLM-polished?",
+      "anchors": {
+        "0": "Symmetric rhythm. Tier-1 buzzwords on every line. Em-dashes everywhere.",
+        "3": "Some buzzwords removed; bullets still uniformly 20-25 words.",
+        "6": "Mixed lengths; varied lead verbs. 1-2 buzzwords slip through.",
+        "9": "Zero Tier-1 buzzwords. One bullet <14 words; one >22. No shared lead words.",
+        "10": "Plus: one bullet would have been impossible for ChatGPT to write."
+      }
+    }
+  ],
+  "aggregate": {
+    "submit": [40, 50],
+    "fix_first": [30, 39],
+    "block": [0, 29]
+  }
+}
